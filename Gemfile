@@ -49,7 +49,7 @@ group :development do
   gem 'spring'
 end
 
-group :development do
+group :production do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'pg'
 end
