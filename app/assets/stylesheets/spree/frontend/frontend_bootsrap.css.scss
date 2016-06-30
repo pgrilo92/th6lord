@@ -1,0 +1,150 @@
+
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+// -- Spree Custom Header and Footer ---------------------
+#spree-header {
+  background: #222;
+  background-size: cover;
+  margin-bottom: $line-height-computed;
+ 
+ 
+
+  #header {
+    background: #000;
+    padding: $line-height-computed 0;
+  }
+
+ /* #logo {
+    margin-bottom: 10px;
+
+    img {
+      width: 60%;
+    }
+  }*/
+  .navbar-brand{
+     color: #fff;
+     font-size: 22px;
+     
+       a{
+          text-decoration:none;
+        }
+      
+}
+  
+
+ 
+ 
+.navbar  {
+  padding-top: 0;
+  padding-bottom: 0;
+min-height:30px !important;
+#link-to-cart{
+  font-size: 8px;
+  padding-bottom: 10px;
+}
+}
+
+.navbar .nav > li > a {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  height: 30px;
+  
+}
+
+
+}
+.btn-success{
+    background-color: #000;
+    border-color: white;
+    &:hover {
+        background-color: #333333;
+}
+}
+.continue{
+  color: #000;
+}
+.text-center > a{
+  color: #000;
+}
+#spree-footer {
+  background: $gray-dark;
+  padding-top: $padding-base-horizontal;
+  margin-top: $line-height-computed;
+  color: white;
+ 
+}
+.carousel.slide
+{
+ 
+  margin-bottom: 40px;
+}
+#breadcrumbs li{
+  color: #000;
+}
+
+
+// -- Spree Layout Custom Rules -------------------------
+
+.alert-notice { @extend .alert-success; }
+.alert-error, .alert-registration_error { @extend .alert-danger; }
+.alert-alert { @extend .alert-info; }
+
+.product-body {
+  height: 170px;
+}
+
+.progress-steps {
+  margin-top: $line-height-computed;
+}
+
+h1 {
+  margin-bottom: 30px;
+  
+}
+
+// Center cart line items
+table {
+  &.table > tbody > tr {
+    &.line-item td, &.stock-item td {
+      vertical-align: middle;
+    }
+  }
+
+  &#line-items {
+    > tbody, > tfoot {
+      > tr > td {
+        vertical-align: middle;
+
+        &.order-qty {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// Footer links
+#footer-left{ 
+    padding-bottom: 30px;
+    
+}
+#footer-left a {
+  color: lighten($brand-primary, 20);
+  
+
+  &:hover {
+    color: lighten($brand-primary, 10);
+  }
+}
+
+// Updated credit-card image
+#credit-card-image {
+  margin-top: -10px;
+}
+
+.existing-credit-card-list td {
+  padding: 2px;
+}
