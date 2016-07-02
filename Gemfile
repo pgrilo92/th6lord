@@ -17,8 +17,8 @@ gem 'aws-sdk', '< 2.0'
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
-gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-0-stable'
-
+gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
+gem 'spree_contact_us', :git => 'https://github.com/spree-contrib/spree_contact_us'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
