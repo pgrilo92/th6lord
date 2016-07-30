@@ -1,8 +1,14 @@
 
 <nav class="col-md-12">
   <div id="main-nav-bar" class="navbar">
-  
+
+     
+         <h1 class="navbar-brand"><%= link_to "The Six Lord", root_path %></h1>
+       
     <ul class="nav navbar-nav navbar-right" data-hook>
+       <li id="search-bar" data-hook>
+      <%= render partial: 'spree/shared/search' %>
+    </li>
       <li id="link-to-cart" data-hook>
         <noscript>
           <%= link_to Spree.t(:cart), '/cart' %>
@@ -10,6 +16,7 @@
         &nbsp;
       </li>
       <script>Spree.fetch_cart()</script>
+      "<li class='<%= (request.fullpath.gsub('//','/') == '/contact-us') ? 'active' : ''%>'><%= link_to Spree.t(:contact_us_title), '/contact-us'  %></li>
     </ul>
   </div>
 </nav>
