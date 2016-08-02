@@ -56,7 +56,7 @@
 .jumbotron {
   min-width: 100%;
   height: 45em;
-  background-image: url('https://s3.amazonaws.com/joaquim-6-lord/asset-images/city.jpg') ;
+  background-image: asset-url('/assets/images/spree/frontend/city.jpg') ;
   margin-left: -20px;
   margin-right: -20px;
   background-position: center center;
