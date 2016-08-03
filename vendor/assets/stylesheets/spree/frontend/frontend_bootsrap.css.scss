@@ -5,53 +5,29 @@
 
 // -- Spree Custom Header and Footer ---------------------
 #spree-header {
-  background: #222;
-  background-size: cover;
+  background: #000;
   margin-bottom: $line-height-computed;
  
  
 
   #header {
     background: #000;
-    padding: $line-height-computed 0;
   }
-
- /* #logo {
-    margin-bottom: 10px;
-
-    img {
-      width: 60%;
-    }
-  }*/
-  .navbar-brand{
-     color: #fff;
-     font-size: 18px;
-     margin: 0;
-     position: absolute;
-     
-       a{
-          text-decoration: none;
-        }
-      
+.navbar-brand{
+  color: white;
 }
 
 
  
- 
+
 .navbar  {
-  padding-top: 0;
-  padding-bottom: 0;
- min-height: 20px !important;
- 
-}
 
-.navbar .nav > li > a {
+ background-color: #000;
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  height: 30px;
-  
-  
+  font-size: 16px;
+  min-height: 30px;
+  text-decoration: none;
 }
 .jumbotron {
   min-width: 100%;
@@ -62,7 +38,6 @@
 
     color: #fff;
     text-align: center;
-    padding: 0;
     font-weight: bold;
  
 }
@@ -160,4 +135,8 @@ table {
 #carousel-slider {
   max-height: 400px !important;
   max-width: 700px !important;
+}
+
+#order_total {
+  color: #000;
 }
