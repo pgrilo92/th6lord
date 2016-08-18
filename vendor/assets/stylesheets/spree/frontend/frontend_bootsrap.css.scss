@@ -62,12 +62,7 @@
   color: white;
  
 }
-.carousel.slide
-{
- min-width: 100%;
-  margin-bottom: 40px;
-  height: 300px;
-}
+
 #breadcrumbs li{
   color: #000;
 }
@@ -133,7 +128,7 @@ table {
 }
 #carousel-slider {
   max-height: 400px !important;
-  max-width: 700px !important;
+  width: 100%;
 }
 
 #order_total {
