@@ -45,7 +45,7 @@ config.assets.precompile = ['.js', '.css', '*.css.erb']
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
-  config.paperclip_defaults = {
+ config.paperclip_defaults = {
   storage: :s3,
   s3_credentials: {
     bucket: ENV.fetch('S3_BUCKET_NAME'),
