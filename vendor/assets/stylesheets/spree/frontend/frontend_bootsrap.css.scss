@@ -126,8 +126,9 @@ table {
 .existing-credit-card-list td {
   padding: 2px;
 }
-.carousel-slider{
-   height: 400px;
+#carousel-slider {
+  max-height: 400px !important;
+  width: 100%;
 }
 .carousel-inner{
     position: absolute;
