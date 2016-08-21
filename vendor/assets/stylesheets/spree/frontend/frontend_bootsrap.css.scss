@@ -129,7 +129,13 @@ table {
 .carousel-slider{
    height: 400px;
 }
-
+.carousel-inner{
+    position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
 #order_total {
   color: #000;
 }
