@@ -28,7 +28,6 @@
 } 
 
 
-
 }
 .btn-success{
     background-color: #000;
@@ -115,7 +114,10 @@ table {
   padding: 2px;
 }
 
+.carousel-inner{
 
+  max-height: 400px;
+}
 #order_total {
   color: #000;
 }
